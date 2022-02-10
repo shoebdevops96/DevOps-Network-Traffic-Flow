@@ -19,7 +19,7 @@ Capturing eth0 packet in 80(http) port
 
 tcpdump -i eth0 dst port 80
 
-Now i will try to telnet one public in 80 port from my container. Lets see if we can trace any packet.
+Now i will try to telnet one public ip in 80 port from my container. Lets see if we can trace any packet.
 
 So from another window I command 
 
