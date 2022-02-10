@@ -30,6 +30,19 @@ here is the result
 <img width="851" alt="image" src="https://user-images.githubusercontent.com/98175634/153359655-57b581cb-dca7-4695-83a8-1a7add059129.png">
 
 
+Now i will try to telnet from my docker to container and the captute the packet of container eth0 port 80
+
+Telnet from Docker ip(172.17.0.2)
+
+telnet 172.17.0.2 80
+
+
+Now here is the captured packet from container eth0
+
+<img width="843" alt="image" src="https://user-images.githubusercontent.com/98175634/153361390-8b9215a7-f107-4568-9acb-8e7eee5f1039.png">
+
+
+
 
 
 
