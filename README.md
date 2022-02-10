@@ -1,6 +1,6 @@
 # DevOps-Network-Traffic-Flow
 Container to Docker to Internet Traffic Flow
-Lets visualise the network diagram first
+Lets visualize the network diagram first
 
 ![Presentation1](https://user-images.githubusercontent.com/98175634/153356868-0ed0e90d-a83b-4e5f-8701-bf7dd57db422.jpg)
 
