@@ -52,6 +52,22 @@ tcpdump -i eth0 dst host 8.8.8.8
 
 here i am pining 8.8.8.8 from my container and above is packet captured in my container eth0 port
 
+On the same moment capturing the packet from docker0 port of Docker
+here is the result
+
+<img width="751" alt="image" src="https://user-images.githubusercontent.com/98175634/153364073-3668099e-ceb1-4dfe-8f94-bc0363da198b.png">
+
+We can see ICMP packets are comming from 172.17.0.2 (container IP)
+
+Now capturing packet from eth0 of Docker
+
+<img width="757" alt="image" src="https://user-images.githubusercontent.com/98175634/153364422-4794eded-19be-465d-97c6-2c9374154e27.png">
+
+
+Now we can see the docker eth0 ip 172.31.7.164
+
+So bascially the packet flows from 172.17.0.2 to 172.31.7.164 to internet.
+
 
 
 
