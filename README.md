@@ -43,6 +43,15 @@ Now here is the captured packet from container eth0
 
 
 
+Similiarly to capture packet from any specific IP we can command
+
+tcpdump -i eth0 dst host 8.8.8.8
+
+
+<img width="617" alt="image" src="https://user-images.githubusercontent.com/98175634/153362864-22c60726-cb7f-40bc-bf4f-e390c3f9d817.png">
+
+here i am pining 8.8.8.8 from my container and above is packet captured in my container eth0 port
+
 
 
 
